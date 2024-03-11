@@ -48,7 +48,7 @@ const Index = () => {
           </Heading>
           <HStack w="100%">
             <Input placeholder="Add your new todo" value={inputValue} onChange={handleInputChange} onKeyPress={handleKeyPress} variant="filled" />
-            <IconButton icon={<FaPlus />} onClick={handleAddTodo} colorScheme="blue" aria-label="Add todo" />
+            <IconButton icon={<FaPlus />} onClick={handleAddTodo} colorScheme="green" aria-label="Add todo" />
           </HStack>
           <List w="100%" spacing={3}>
             {todos.map((todo) => (
